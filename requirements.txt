@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-pandas
-numpy
-scikit-learn
-yfinance
-python-multipart
-google-genai
-python-dotenv
