@@ -1,1 +1,7 @@
-
+@tailwind base; @tailwind components; @tailwind utilities;
+:root { --paper:#F5F7FA; --card:#FFFFFF; --ink:#16202C; --mute:#5E6B7A; --line:#E1E6EC; --accent:#0E6F8F; --good:#2B7A57; --bad:#B4443C; --alt:#B7791F; }
+@media (prefers-color-scheme: dark) {
+  :root { --paper:#0F151C; --card:#16202A; --ink:#E8EDF2; --mute:#93A1B0; --line:#26333F; --accent:#4FB3D1; --good:#58B88A; --bad:#E27D74; --alt:#E0A84F; }
+}
+body { background: var(--paper); color: var(--ink); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
